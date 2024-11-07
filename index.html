@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion Design With Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+    </style>
 </head>
 <body>
+    <header class=" bg-yellow-50 ">
+
+        <div class="header-container w-4/5 m-auto">
+            <nav class="flex max-md:flex-col items-center justify-between p-4">
+                <img src="icons/logo.png" alt="" class="w-4/12 max-md:w-3/4">
+                <ul class="flex max-sm:flex-wrap max-sm:justify-center justify-end gap-4 max-md:gap-2">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </nav>
     
+            <div class="banner"></div>
+        </div>
+    </header>
 </body>
 </html>
